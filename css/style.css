@@ -372,6 +372,7 @@ table {
 
 a {
   text-decoration: none;
+  color: black;
 }
 
 ::-webkit-scrollbar {
@@ -388,6 +389,7 @@ a {
   height: 500px;
   position: -webkit-sticky;
   position: sticky;
+  margin-bottom: -60px;
   top: 0;
   z-index: 1;
   background: url("../images/background.JPG");
@@ -459,48 +461,25 @@ a {
   font-size: 30px;
   text-decoration: underline;
 }
-.main__work {
+.main__selectClients {
   width: 100%;
-  min-height: 300px;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  background: #fee832;
-}
-.main__work-card {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 200px;
-  height: 300px;
-  margin-right: 30px;
-  font-size: 60px;
-  color: #000e9f;
-}
-.main__recentProjects {
-  width: 100%;
-  min-height: 600px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  height: 600px;
   background-color: white;
-  padding-top: 20px;
-  font-size: 60px;
-  color: #000e9f;
-  padding-top: 30px;
+  display: flex;
+  padding: 20px 60px;
 }
-.main__recentProject-title {
-  margin-bottom: 20px;
-}
-.main__box-work {
+.main__selectClientsLeft {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
-  min-height: 600px;
-  background-color: aqua;
+  font-size: 60px;
+  color: #000e9f;
+}
+.main__selectClientsRight {
+  display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
   padding-top: 20px;
 }
 
@@ -517,20 +496,36 @@ a {
   margin-bottom: 20px;
 }
 
-.card__icon {
-  width: 60px;
-  height: 60px;
-  margin-bottom: 10px;
+.selectClientsRight__card {
+  width: 250px;
+  height: 250px;
+  background-color: red;
+  margin-right: 20px;
+  margin-bottom: 20px;
 }
 
-.box-work__item {
-  width: 363px;
-  height: 363px;
+.footer__wrapper {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  width: 100%;
+  min-height: 300px;
   background-color: #000e9f;
-  margin-right: 30px;
-  margin-bottom: 30px;
+  padding: 20px 60px;
 }
-
-.last {
-  margin-right: 0;
+.footer__linkToContact {
+  color: white;
+  font-size: 50px;
+  text-decoration: underline;
+}
+.footer__left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  color: white;
+}
+.footer__title {
+  margin-bottom: 20px;
 }/*# sourceMappingURL=style.css.map */
