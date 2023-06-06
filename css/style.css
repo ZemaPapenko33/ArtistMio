@@ -371,6 +371,11 @@ table {
   src: url("../fonts/static/NunitoSans_10pt-SemiBold.ttf");
   font-style: normal;
 }
+@font-face {
+  font-family: "myBebasReg";
+  src: url("../fonts/static/NunitoSans_7pt-Regular.ttf");
+  font-style: normal;
+}
 * {
   box-sizing: border-box;
 }
@@ -440,7 +445,7 @@ a {
   position: relative;
   z-index: 1;
   width: 100%;
-  min-height: 800px;
+  min-height: 850px;
 }
 .main__scroll-biography {
   display: flex;
@@ -470,24 +475,63 @@ a {
 }
 .main__selectClients {
   width: 100%;
-  height: 500px;
+  min-height: 300px;
   background-color: white;
   display: flex;
-  padding: 20px 60px;
+  flex-direction: column;
+  padding: 20px 20px;
 }
-.main__selectClientsLeft {
+.main__selectClientsUp {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 60px;
   color: #000e9f;
+  font-size: 60px;
+  margin-bottom: 20px;
 }
-.main__selectClientsRight {
+.main__selectClientsDown {
+  width: 100%;
   display: flex;
-  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.selectClientsRight__card {
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+}
+.selectClientsRight__card-img {
+  width: 100px;
+  height: 100px;
+}
+
+.bigCard {
+  width: 200px;
+  height: 200px;
+}
+
+.superRare {
+  display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 20px;
+  width: 280px;
+  height: 280px;
+}
+
+.superRare-img {
+  width: 350px;
+  height: 350px;
+}
+
+.artis {
+  width: 150px;
+  height: 150px;
+}
+
+.inglot {
+  width: 230px;
+  height: 230px;
 }
 
 .greetings__title {
@@ -502,31 +546,6 @@ a {
   font-size: 30px;
   line-height: 35px;
   margin-bottom: 20px;
-}
-
-.selectClientsRight__card {
-  width: 150px;
-  height: 150px;
-  margin-right: 30px;
-}
-.selectClientsRight__card-img {
-  width: 150px;
-  height: 150px;
-}
-
-.SuperRare {
-  width: 250px;
-  height: 250px;
-}
-
-.lexus {
-  width: 200px;
-  height: 200px;
-}
-
-.Sber {
-  width: 250px;
-  height: 250px;
 }
 
 .footer__wrapper {
@@ -560,6 +579,8 @@ a {
 }
 .footer__title {
   margin-bottom: 20px;
+  font-family: "myBebasReg";
+  font-weight: 300;
 }
 .footer__social-links {
   list-style: none;
