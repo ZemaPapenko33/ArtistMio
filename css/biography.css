@@ -431,7 +431,21 @@ a {
 }
 
 .main__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-bottom: -5px;
+}
+.main__right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 1280px;
+  font-size: 20px;
+  line-height: 30px;
+  padding: 20px 30px;
+  font-family: "myBebasReg";
 }
 
 .footer__wrapper {
