@@ -366,6 +366,16 @@ table {
   border-spacing: 0;
 }
 
+@font-face {
+  font-family: "myBebas";
+  src: url("../fonts/static/NunitoSans_10pt-SemiBold.ttf");
+  font-style: normal;
+}
+@font-face {
+  font-family: "myBebasReg";
+  src: url("../fonts/static/NunitoSans_7pt-Regular.ttf");
+  font-style: normal;
+}
 * {
   box-sizing: border-box;
 }
@@ -414,6 +424,7 @@ a {
   display: inline-flex;
   margin-right: 25px;
   font-size: 25px;
+  font-family: "myBebas";
 }
 .header__nav-list li:last-child {
   margin-right: 0;
@@ -432,8 +443,45 @@ a {
   font-size: 60px;
 }
 
-.footer {
+.footer__wrapper {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
-  height: 800px;
-  background-color: yellow;
+  min-height: 300px;
+  background-color: #000e9f;
+  padding: 20px 60px;
+}
+.footer__linkToContact {
+  color: white;
+  font-size: 50px;
+  text-decoration: underline;
+  font-family: "myBebas";
+}
+.footer__right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer__title {
+  margin-bottom: 20px;
+  font-family: "myBebasReg";
+  font-weight: 300;
+}
+.footer__social-links {
+  list-style: none;
+}
+.footer__social-links li {
+  display: inline-flex;
+  margin-right: 20px;
+}
+.footer__social-links li:last-child {
+  margin-right: 0;
+}
+
+.icon-links {
+  width: 50px;
+  height: 50px;
 }/*# sourceMappingURL=contact.css.map */
