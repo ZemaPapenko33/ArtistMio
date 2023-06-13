@@ -465,6 +465,10 @@ a {
   width: 90%;
 }
 
+.check {
+  padding-top: 20px;
+}
+
 .footer__wrapper {
   position: relative;
   z-index: 1;
