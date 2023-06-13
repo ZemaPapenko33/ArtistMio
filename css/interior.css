@@ -456,13 +456,6 @@ a {
   padding-bottom: 30px;
   padding-top: 30px;
 }
-.main__img {
-  width: 800px;
-  height: 800px;
-  -o-object-fit: cover;
-     object-fit: cover;
-  margin-bottom: 15px;
-}
 
 .footer__wrapper {
   position: relative;
