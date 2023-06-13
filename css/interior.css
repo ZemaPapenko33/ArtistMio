@@ -431,35 +431,31 @@ a {
 }
 
 .main__wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: -5px;
+  width: 100%;
+  min-height: 500px;
 }
-.main__right {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 1280px;
-  font-size: 20px;
-  line-height: 30px;
-  padding: 20px 30px;
+.main__up {
   font-family: "myBebasReg";
+  font-size: 24px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
-.main__right p {
+.main__down {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  min-height: 800px;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+.main__img {
+  width: 400px;
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
   margin-bottom: 15px;
-}
-.main__right p:last-child {
-  margin-bottom: 0;
-}
-.main__title {
-  font-family: "myBebas";
-  font-size: 60px;
-}
-
-.first {
-  margin-top: 150px;
 }
 
 .footer__wrapper {
@@ -512,4 +508,4 @@ a {
 .icon-links {
   width: 50px;
   height: 50px;
-}/*# sourceMappingURL=biography.css.map */
+}/*# sourceMappingURL=interior.css.map */
