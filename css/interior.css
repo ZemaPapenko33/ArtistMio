@@ -466,8 +466,13 @@ a {
   font-family: "myBebasReg";
 }
 
+.prevLast {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
 .last {
-  width: 70%;
+  width: 50%;
 }
 
 .check {
