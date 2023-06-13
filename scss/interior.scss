@@ -84,7 +84,7 @@ a {
   }
   &__down {
     display: flex;
-    // flex-direction: column;
+    flex-direction: column;
     flex-wrap: wrap;
     width: 100%;
     min-height: 800px;
@@ -95,11 +95,15 @@ a {
     img {
       margin-bottom: 15px;
     }
+    p {
+      font-size: 60px;
+      font-family: 'myBebasReg';
+    }
   }
 }
 
 .last {
-  width: 90%;
+  width: 70%;
 }
 
 .check {
