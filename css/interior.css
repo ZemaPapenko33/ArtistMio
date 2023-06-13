@@ -448,7 +448,7 @@ a {
 }
 .main__down {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   width: 100%;
   min-height: 800px;
   align-items: center;
