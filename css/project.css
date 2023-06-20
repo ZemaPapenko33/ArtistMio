@@ -445,6 +445,8 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  position: relative;
+  padding-top: 80px;
 }
 .main__luch {
   margin-bottom: 50px;
@@ -452,6 +454,8 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  position: relative;
+  padding-top: 80px;
 }
 .main__inglot {
   margin-bottom: 50px;
@@ -459,6 +463,47 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  position: relative;
+  padding-top: 80px;
+}
+.main__display {
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding-top: 80px;
+}
+
+.titleBLue {
+  background-color: #000e9f;
+  width: 500px;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 45px;
+  font-family: "myBebasReg";
+}
+
+.titleBlueImg {
+  width: 100px;
+  height: 100px;
+  margin-left: 15px;
+  position: absolute;
+  top: 90px;
+  left: 30px;
+}
+
+.luchImg {
+  position: absolute;
+  top: 60px;
+  left: 90px;
 }
 
 .lexus__text {
@@ -513,6 +558,27 @@ a {
   flex-wrap: wrap;
 }
 .inglot__img-size {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 500px;
+  height: 500px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.display__text {
+  font-size: 30px;
+  width: 1000px;
+  font-family: "myBebasReg";
+  margin-bottom: 50px;
+}
+.display__img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.display__img-size {
   -o-object-fit: cover;
      object-fit: cover;
   width: 500px;
