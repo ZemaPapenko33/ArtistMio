@@ -227,6 +227,15 @@ a {
   }
 }
 
+.youngImg {
+  //   object-fit: cover;
+  object-fit: contain;
+  width: 800px;
+  height: 800px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
 .footer {
   &__wrapper {
     position: relative;
