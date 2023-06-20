@@ -34,6 +34,7 @@ a {
   position: sticky;
   top: 0;
   z-index: 1;
+  margin-bottom: 50px;
   &__wrapper {
     position: sticky;
     top: 0;
@@ -67,53 +68,98 @@ a {
 .main {
   &__wrapper {
     width: 100%;
-    min-height: 500px;
+    min-height: 1800px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  &__up {
-    width: 1200px;
-    font-family: 'myBebasReg';
-    font-size: 60px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 80px;
-    padding-bottom: 40px;
-  }
-  &__down {
+  &__lexus {
+    margin-bottom: 50px;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    width: 100%;
-    min-height: 800px;
     align-items: center;
-    justify-content: space-around;
-    padding-bottom: 30px;
-    padding-top: 30px;
-    img {
-      margin-bottom: 15px;
-    }
-    p {
-      font-size: 60px;
-      font-family: 'myBebasReg';
-    }
+    justify-content: center;
+  }
+  &__luch {
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  &__inglot {
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 }
 
-.prevLast {
-  margin-top: 50px;
-  margin-bottom: 5h0px;
+.lexus {
+  &__text {
+    font-size: 30px;
+    width: 1000px;
+    font-family: 'myBebasReg';
+    margin-bottom: 50px;
+  }
+  &__img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  &__img-size {
+    object-fit: cover;
+    width: 500px;
+    height: 500px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+  }
 }
 
-.last {
-  width: 50%;
+.luch {
+  &__text {
+    font-size: 30px;
+    width: 1000px;
+    font-family: 'myBebasReg';
+    margin-bottom: 50px;
+  }
+  &__img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &__img-size {
+    object-fit: cover;
+    width: 500px;
+    height: 500px;
+  }
 }
 
-.check {
-  padding-top: 20px;
+.inglot {
+  &__text {
+    font-size: 30px;
+    width: 1000px;
+    font-family: 'myBebasReg';
+    margin-bottom: 50px;
+  }
+  &__img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  &__img-size {
+    object-fit: cover;
+    width: 500px;
+    height: 500px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+  }
 }
+
 .footer {
   &__wrapper {
     position: relative;

@@ -399,6 +399,7 @@ a {
   position: sticky;
   top: 0;
   z-index: 1;
+  margin-bottom: 50px;
 }
 .header__wrapper {
   position: -webkit-sticky;
@@ -432,51 +433,92 @@ a {
 
 .main__wrapper {
   width: 100%;
-  min-height: 500px;
+  min-height: 1800px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-.main__up {
-  width: 1200px;
-  font-family: "myBebasReg";
-  font-size: 60px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 80px;
-  padding-bottom: 40px;
-}
-.main__down {
+.main__lexus {
+  margin-bottom: 50px;
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
-  width: 100%;
-  min-height: 800px;
   align-items: center;
-  justify-content: space-around;
-  padding-bottom: 30px;
-  padding-top: 30px;
+  justify-content: center;
 }
-.main__down img {
-  margin-bottom: 15px;
+.main__luch {
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-.main__down p {
-  font-size: 60px;
+.main__inglot {
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.lexus__text {
+  font-size: 30px;
+  width: 1000px;
   font-family: "myBebasReg";
+  margin-bottom: 50px;
+}
+.lexus__img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.lexus__img-size {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 500px;
+  height: 500px;
+  margin-bottom: 20px;
+  margin-right: 20px;
 }
 
-.prevLast {
-  margin-top: 50px;
-  margin-bottom: 5h0px;
+.luch__text {
+  font-size: 30px;
+  width: 1000px;
+  font-family: "myBebasReg";
+  margin-bottom: 50px;
+}
+.luch__img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.luch__img-size {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 500px;
+  height: 500px;
 }
 
-.last {
-  width: 50%;
+.inglot__text {
+  font-size: 30px;
+  width: 1000px;
+  font-family: "myBebasReg";
+  margin-bottom: 50px;
 }
-
-.check {
-  padding-top: 20px;
+.inglot__img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.inglot__img-size {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 500px;
+  height: 500px;
+  margin-bottom: 20px;
+  margin-right: 20px;
 }
 
 .footer__wrapper {
@@ -529,4 +571,4 @@ a {
 .icon-links {
   width: 50px;
   height: 50px;
-}/*# sourceMappingURL=interior.css.map */
+}/*# sourceMappingURL=project.css.map */
