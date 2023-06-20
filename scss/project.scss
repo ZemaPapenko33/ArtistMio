@@ -229,9 +229,9 @@ a {
 
 .youngImg {
   //   object-fit: cover;
-  object-fit: contain;
-  width: 600px;
-  height: 600px;
+  object-fit: scale-down;
+  width: 500px;
+  height: 500px;
   margin-bottom: 20px;
   margin-right: 20px;
 }

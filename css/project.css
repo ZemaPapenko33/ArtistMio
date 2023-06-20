@@ -588,10 +588,10 @@ a {
 }
 
 .youngImg {
-  -o-object-fit: contain;
-     object-fit: contain;
-  width: 600px;
-  height: 600px;
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
+  width: 500px;
+  height: 500px;
   margin-bottom: 20px;
   margin-right: 20px;
 }
