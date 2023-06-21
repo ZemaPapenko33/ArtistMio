@@ -71,11 +71,28 @@ a {
     align-items: center;
     width: 100%;
     min-height: 500px;
-    background-color: red;
+
     padding-top: 20px;
   }
   &__title {
     font-size: 60px;
+    margin-bottom: 30px;
+    font-family: 'myBebas';
+  }
+  &__form {
+    display: flex;
+    flex-direction: column;
+  }
+  input {
+    width: 300px;
+    border: none;
+    border-bottom: 5px solid #000e9f;
+    margin-bottom: 15px;
+    margin-right: 15px;
+  }
+  textarea {
+    resize: none;
+    border: 2px solid #000e9f;
   }
 }
 
