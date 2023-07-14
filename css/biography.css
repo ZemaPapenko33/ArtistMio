@@ -456,6 +456,7 @@ a {
 .main__title {
   font-family: "myBebas";
   font-size: 60px;
+  line-height: 55px;
 }
 
 .first {
