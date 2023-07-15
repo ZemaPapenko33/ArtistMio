@@ -452,23 +452,28 @@ a {
 .main__image-box-title {
   font-family: "myBebas";
   font-size: 40px;
-  margin-bottom: 15px;
 }
 .main__image-box-img {
   width: 500px;
   height: 500px;
   -o-object-fit: contain;
      object-fit: contain;
+  margin-bottom: 5px;
 }
 .main__title-box {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #000e9f;
-  color: white;
   padding: 5px;
   width: 300px;
   margin-bottom: 5px;
+}
+.main__image-box-subtitle {
+  color: grey;
+  font-size: 25px;
+}
+.main__subtitle-box {
+  margin-bottom: 15px;
 }
 
 .trinity-main {
@@ -480,6 +485,11 @@ a {
 
 .fix-title-box {
   margin-bottom: 0px;
+}
+
+.imgGeneral {
+  width: 900px;
+  height: 900px;
 }
 
 .footer__wrapper {
